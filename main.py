@@ -4,7 +4,7 @@ from config import BOT_TOKEN
 from handlers import router
 from scheduler import setup_scheduler
 
-print(f"Токен {BOT_TOKEN}") #это чтобы проверить корректность токена, можно убрать
+print(f"Токен {BOT_TOKEN}") #это чтобы проверить корректность токена можно убрать
 
 async def main():
     bot = Bot(token=BOT_TOKEN)
